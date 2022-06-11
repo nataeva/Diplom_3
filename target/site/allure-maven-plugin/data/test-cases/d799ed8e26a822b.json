@@ -1,0 +1,306 @@
+{
+  "uid" : "d799ed8e26a822b",
+  "name" : "testConstructorOpensWithLogoClick",
+  "fullName" : "test.ConstructorNavigationTest.testConstructorOpensWithLogoClick",
+  "historyId" : "964511b9d485f5710f96ace8c48b36d0",
+  "time" : {
+    "start" : 1654917427830,
+    "stop" : 1654917442969,
+    "duration" : 15139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to sign up page",
+      "time" : {
+        "start" : 1654917437413,
+        "stop" : 1654917438039,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click \"Log In\" button",
+        "time" : {
+          "start" : 1654917437415,
+          "stop" : 1654917437830,
+          "duration" : 415
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click \"Sign Up\" link",
+        "time" : {
+          "start" : 1654917437876,
+          "stop" : 1654917438039,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mainPage",
+        "value" : "pageObject.MainPage@6fc28e5b"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Enter data for sign up",
+      "time" : {
+        "start" : 1654917438040,
+        "stop" : 1654917438727,
+        "duration" : 687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Elena Nataeva"
+      }, {
+        "name" : "email",
+        "value" : "elenadf5f@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "12345678"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Sign Up\" button",
+      "time" : {
+        "start" : 1654917438728,
+        "stop" : 1654917438909,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Log In\" button",
+      "time" : {
+        "start" : 1654917439426,
+        "stop" : 1654917439847,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Enter data for sign in",
+      "time" : {
+        "start" : 1654917439895,
+        "stop" : 1654917440319,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "elenadf5f@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "12345678"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Sign In\" button",
+      "time" : {
+        "start" : 1654917440319,
+        "stop" : 1654917440457,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Personal Cabinet\" button",
+      "time" : {
+        "start" : 1654917440750,
+        "stop" : 1654917441009,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click Stellar Burgers logo",
+      "time" : {
+        "start" : 1654917441010,
+        "stop" : 1654917441415,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Wait until '<h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>' is visible",
+      "time" : {
+        "start" : 1654917441590,
+        "stop" : 1654917441635,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<h1 class=\"text text_type_main-large mb-5 mt-10\">Соберите бургер</h1>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Personal Cabinet\" button",
+      "time" : {
+        "start" : 1654917441650,
+        "stop" : 1654917441813,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1654917442098,
+        "stop" : 1654917442239,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>' is visible",
+      "time" : {
+        "start" : 1654917442933,
+        "stop" : 1654917442964,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 14
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.ConstructorNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testConstructorOpensWithLogoClick"
+  }, {
+    "name" : "suite",
+    "value" : "test.ConstructorNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "10228@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d799ed8e26a822b.json",
+  "parameterValues" : [ ]
+}

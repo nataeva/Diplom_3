@@ -1,0 +1,117 @@
+{
+  "uid" : "bfdadbe09bbff464",
+  "name" : "testNavigationToBuns",
+  "fullName" : "test.ConstructorTest.testNavigationToBuns",
+  "historyId" : "bbd69da7c397e71330d55942df3e680a",
+  "time" : {
+    "start" : 1654917446800,
+    "stop" : 1654917447752,
+    "duration" : 952
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click \"Sauces\" button",
+      "time" : {
+        "start" : 1654917447029,
+        "stop" : 1654917447409,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click \"Buns\" button",
+      "time" : {
+        "start" : 1654917447451,
+        "stop" : 1654917447570,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Wait until '<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>' is visible",
+      "time" : {
+        "start" : 1654917447726,
+        "stop" : 1654917447752,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigationToBuns"
+  }, {
+    "name" : "suite",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "10228@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfdadbe09bbff464.json",
+  "parameterValues" : [ ]
+}
