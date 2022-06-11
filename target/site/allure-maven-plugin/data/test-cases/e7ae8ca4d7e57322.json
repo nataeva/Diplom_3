@@ -1,12 +1,12 @@
 {
-  "uid" : "844b69b75cf1eb86",
-  "name" : "testLogOut",
-  "fullName" : "test.LogOutTest.testLogOut",
-  "historyId" : "b0187a196ceca6c03ca26dd9cb3de2a6",
+  "uid" : "e7ae8ca4d7e57322",
+  "name" : "testLoginWorksFromMainPage_LogInButton",
+  "fullName" : "test.LogInTest.testLoginWorksFromMainPage_LogInButton",
+  "historyId" : "892ae3ce83c47c53bdc4f300c497b916",
   "time" : {
-    "start" : 1654917460747,
-    "stop" : 1654917463293,
-    "duration" : 2546
+    "start" : 1654990730852,
+    "stop" : 1654990735018,
+    "duration" : 4166
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,105 +17,111 @@
     "steps" : [ {
       "name" : "Click \"Log In\" button",
       "time" : {
-        "start" : 1654917460953,
-        "stop" : 1654917461353,
-        "duration" : 400
+        "start" : 1654990732110,
+        "stop" : 1654990732262,
+        "duration" : 152
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Enter data for sign in",
       "time" : {
-        "start" : 1654917461353,
-        "stop" : 1654917461686,
-        "duration" : 333
+        "start" : 1654990732262,
+        "stop" : 1654990732818,
+        "duration" : 556
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "email",
-        "value" : "elenadf5f@gmail.com"
+        "value" : "elena4dbb@gmail.com"
       }, {
         "name" : "password",
         "value" : "12345678"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Sign In\" button",
       "time" : {
-        "start" : 1654917461686,
-        "stop" : 1654917461807,
-        "duration" : 121
+        "start" : 1654990732818,
+        "stop" : 1654990733030,
+        "duration" : 212
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>' is visible",
+      "time" : {
+        "start" : 1654990733528,
+        "stop" : 1654990733562,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Personal Cabinet\" button",
       "time" : {
-        "start" : 1654917461807,
-        "stop" : 1654917462324,
-        "duration" : 517
+        "start" : 1654990733581,
+        "stop" : 1654990733719,
+        "duration" : 138
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Log out",
       "time" : {
-        "start" : 1654917462324,
-        "stop" : 1654917462669,
-        "duration" : 345
+        "start" : 1654990733965,
+        "stop" : 1654990734164,
+        "duration" : 199
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "Click Stellar Burgers logo",
-      "time" : {
-        "start" : 1654917462914,
-        "stop" : 1654917463133,
-        "duration" : 219
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0
     }, {
       "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>' is visible",
       "time" : {
-        "start" : 1654917463268,
-        "stop" : 1654917463293,
-        "duration" : 25
+        "start" : 1654990734953,
+        "stop" : 1654990735017,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,17 +133,17 @@
         "name" : "state",
         "value" : "visible"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
     "hasContent" : true,
-    "stepsCount" : 7
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -145,19 +151,19 @@
     "value" : "test"
   }, {
     "name" : "testClass",
-    "value" : "test.LogOutTest"
+    "value" : "test.LogInTest"
   }, {
     "name" : "testMethod",
-    "value" : "testLogOut"
+    "value" : "testLoginWorksFromMainPage_LogInButton"
   }, {
     "name" : "suite",
-    "value" : "test.LogOutTest"
+    "value" : "test.LogInTest"
   }, {
     "name" : "host",
     "value" : "spbnb-prc2963"
   }, {
     "name" : "thread",
-    "value" : "10228@spbnb-prc2963.main(1)"
+    "value" : "7164@spbnb-prc2963.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -178,6 +184,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "844b69b75cf1eb86.json",
+  "source" : "e7ae8ca4d7e57322.json",
   "parameterValues" : [ ]
 }

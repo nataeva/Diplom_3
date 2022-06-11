@@ -1,12 +1,12 @@
 {
-  "uid" : "fab2477d5764042c",
+  "uid" : "70971a032b148f2c",
   "name" : "testSuccessfulSignUp",
   "fullName" : "test.SignUpTest.testSuccessfulSignUp",
   "historyId" : "f2ca25384a1159f9868f8a10d75e27f8",
   "time" : {
-    "start" : 1654917467377,
-    "stop" : 1654917469137,
-    "duration" : 1760
+    "start" : 1654990751022,
+    "stop" : 1654990753405,
+    "duration" : 2383
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,57 +17,57 @@
     "steps" : [ {
       "name" : "Navigate to sign up page",
       "time" : {
-        "start" : 1654917467593,
-        "stop" : 1654917468103,
-        "duration" : 510
+        "start" : 1654990752234,
+        "stop" : 1654990752415,
+        "duration" : 181
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Click \"Log In\" button",
         "time" : {
-          "start" : 1654917467593,
-          "stop" : 1654917467974,
-          "duration" : 381
+          "start" : 1654990752234,
+          "stop" : 1654990752312,
+          "duration" : 78
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
         "hasContent" : false,
-        "stepsCount" : 0
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : "Click \"Sign Up\" link",
         "time" : {
-          "start" : 1654917468000,
-          "stop" : 1654917468103,
-          "duration" : 103
+          "start" : 1654990752334,
+          "stop" : 1654990752415,
+          "duration" : 81
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
         "hasContent" : false,
-        "stepsCount" : 0
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "mainPage",
-        "value" : "pageObject.MainPage@618a9cb7"
+        "value" : "pageObject.MainPage@2542e124"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
       "hasContent" : true,
-      "stepsCount" : 2
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Enter data for sign up",
       "time" : {
-        "start" : 1654917468134,
-        "stop" : 1654917468617,
-        "duration" : 483
+        "start" : 1654990752440,
+        "stop" : 1654990752885,
+        "duration" : 445
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,36 +77,36 @@
         "value" : "Elena Nataeva"
       }, {
         "name" : "email",
-        "value" : "testUserba50@gmail.com"
+        "value" : "testUser1948@gmail.com"
       }, {
         "name" : "password",
         "value" : "12345678"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Sign Up\" button",
       "time" : {
-        "start" : 1654917468618,
-        "stop" : 1654917468716,
-        "duration" : 98
+        "start" : 1654990752885,
+        "stop" : 1654990752992,
+        "duration" : 107
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa\" type=\"submit\">Войти</button>' is visible",
       "time" : {
-        "start" : 1654917469115,
-        "stop" : 1654917469137,
-        "duration" : 22
+        "start" : 1654990753384,
+        "stop" : 1654990753404,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,17 +118,17 @@
         "name" : "state",
         "value" : "visible"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
     "hasContent" : true,
-    "stepsCount" : 6
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,7 +148,7 @@
     "value" : "spbnb-prc2963"
   }, {
     "name" : "thread",
-    "value" : "10228@spbnb-prc2963.main(1)"
+    "value" : "7164@spbnb-prc2963.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -169,6 +169,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fab2477d5764042c.json",
+  "source" : "70971a032b148f2c.json",
   "parameterValues" : [ ]
 }

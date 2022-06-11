@@ -1,12 +1,12 @@
 {
-  "uid" : "bfdadbe09bbff464",
-  "name" : "testNavigationToBuns",
-  "fullName" : "test.ConstructorTest.testNavigationToBuns",
-  "historyId" : "bbd69da7c397e71330d55942df3e680a",
+  "uid" : "cc9de2bf05577b8f",
+  "name" : "testNavigationToIngredients",
+  "fullName" : "test.ConstructorTest.testNavigationToIngredients",
+  "historyId" : "4d7f503488168e6f06ff85e1fbca583e",
   "time" : {
-    "start" : 1654917446800,
-    "stop" : 1654917447752,
-    "duration" : 952
+    "start" : 1654990724344,
+    "stop" : 1654990725840,
+    "duration" : 1496
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,61 +17,58 @@
     "steps" : [ {
       "name" : "Click \"Sauces\" button",
       "time" : {
-        "start" : 1654917447029,
-        "stop" : 1654917447409,
-        "duration" : 380
+        "start" : 1654990725558,
+        "stop" : 1654990725641,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "Click \"Buns\" button",
+      "name" : "Click \"Ingredients\" button",
       "time" : {
-        "start" : 1654917447451,
-        "stop" : 1654917447570,
-        "duration" : 119
+        "start" : 1654990725642,
+        "stop" : 1654990725737,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "Wait until '<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>' is visible",
+      "name" : "Wait until elements parent has 'current' class",
       "time" : {
-        "start" : 1654917447726,
-        "stop" : 1654917447752,
-        "duration" : 26
+        "start" : 1654990725801,
+        "stop" : 1654990725839,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "element",
-        "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>"
-      }, {
-        "name" : "state",
-        "value" : "visible"
+        "value" : "<span class=\"text text_type_main-default\">Начинки</span>"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
     "hasContent" : true,
-    "stepsCount" : 3
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +79,7 @@
     "value" : "test.ConstructorTest"
   }, {
     "name" : "testMethod",
-    "value" : "testNavigationToBuns"
+    "value" : "testNavigationToIngredients"
   }, {
     "name" : "suite",
     "value" : "test.ConstructorTest"
@@ -91,7 +88,7 @@
     "value" : "spbnb-prc2963"
   }, {
     "name" : "thread",
-    "value" : "10228@spbnb-prc2963.main(1)"
+    "value" : "7164@spbnb-prc2963.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -112,6 +109,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bfdadbe09bbff464.json",
+  "source" : "cc9de2bf05577b8f.json",
   "parameterValues" : [ ]
 }

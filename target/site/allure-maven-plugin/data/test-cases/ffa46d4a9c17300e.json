@@ -1,12 +1,12 @@
 {
-  "uid" : "918a812218246857",
-  "name" : "testLoginWorksFromMainPage_PersonalCabinetButton",
-  "fullName" : "test.LogInTest.testLoginWorksFromMainPage_PersonalCabinetButton",
-  "historyId" : "e1995845f6f1ce68e69599bb2132b86f",
+  "uid" : "ffa46d4a9c17300e",
+  "name" : "testLoginWorksFromRestorePasswordPage",
+  "fullName" : "test.LogInTest.testLoginWorksFromRestorePasswordPage",
+  "historyId" : "b397b09eeff8fc582037f34c15bc8255",
   "time" : {
-    "start" : 1654917449429,
-    "stop" : 1654917452047,
-    "duration" : 2618
+    "start" : 1654990738903,
+    "stop" : 1654990742451,
+    "duration" : 3548
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,113 +15,143 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Click \"Personal Cabinet\" button",
+      "name" : "Click \"Log In\" button",
       "time" : {
-        "start" : 1654917449648,
-        "stop" : 1654917450009,
-        "duration" : 361
+        "start" : 1654990740124,
+        "stop" : 1654990740220,
+        "duration" : 96
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Restore password\" button",
+      "time" : {
+        "start" : 1654990740220,
+        "stop" : 1654990740317,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Log In\" button",
+      "time" : {
+        "start" : 1654990740317,
+        "stop" : 1654990740414,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Enter data for sign in",
       "time" : {
-        "start" : 1654917450009,
-        "stop" : 1654917450422,
-        "duration" : 413
+        "start" : 1654990740414,
+        "stop" : 1654990740711,
+        "duration" : 297
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "email",
-        "value" : "elenadf5f@gmail.com"
+        "value" : "elena4dbb@gmail.com"
       }, {
         "name" : "password",
         "value" : "12345678"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Sign In\" button",
       "time" : {
-        "start" : 1654917450423,
-        "stop" : 1654917450545,
-        "duration" : 122
+        "start" : 1654990740711,
+        "stop" : 1654990740828,
+        "duration" : 117
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "Wait until 'NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//button[text()='Оформить заказ']\"}' is visible",
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>' is visible",
       "time" : {
-        "start" : 1654917450597,
-        "stop" : 1654917450854,
-        "duration" : 257
+        "start" : 1654990741252,
+        "stop" : 1654990741284,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "element",
-        "value" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//button[text()='Оформить заказ']\"}"
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>"
       }, {
         "name" : "state",
         "value" : "visible"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Personal Cabinet\" button",
       "time" : {
-        "start" : 1654917450878,
-        "stop" : 1654917451008,
-        "duration" : 130
+        "start" : 1654990741303,
+        "stop" : 1654990741414,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Log out",
       "time" : {
-        "start" : 1654917451261,
-        "stop" : 1654917451386,
-        "duration" : 125
+        "start" : 1654990741634,
+        "stop" : 1654990741773,
+        "duration" : 139
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>' is visible",
       "time" : {
-        "start" : 1654917452017,
-        "stop" : 1654917452047,
-        "duration" : 30
+        "start" : 1654990742423,
+        "stop" : 1654990742451,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -133,17 +163,17 @@
         "name" : "state",
         "value" : "visible"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
     "hasContent" : true,
-    "stepsCount" : 7
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -154,7 +184,7 @@
     "value" : "test.LogInTest"
   }, {
     "name" : "testMethod",
-    "value" : "testLoginWorksFromMainPage_PersonalCabinetButton"
+    "value" : "testLoginWorksFromRestorePasswordPage"
   }, {
     "name" : "suite",
     "value" : "test.LogInTest"
@@ -163,7 +193,7 @@
     "value" : "spbnb-prc2963"
   }, {
     "name" : "thread",
-    "value" : "10228@spbnb-prc2963.main(1)"
+    "value" : "7164@spbnb-prc2963.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -184,6 +214,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "918a812218246857.json",
+  "source" : "ffa46d4a9c17300e.json",
   "parameterValues" : [ ]
 }

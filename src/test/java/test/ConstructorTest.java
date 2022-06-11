@@ -1,50 +1,50 @@
 package test;
 
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.WebDriverRunner;
+import io.qameta.allure.Step;
 import org.junit.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Arrays;
-
-import static com.codeborne.selenide.Condition.visible;
-import static util.UserInteraction.assertElementInState;
+import java.time.Duration;
 
 public class ConstructorTest extends BaseTest {
 
     @Test
     public void testNavigationToBuns() {
+        waitForJsToLoad();
         mainPage.clickSauces();
 
-        waitUntilCategoryLoads(mainPage.getSaucesButton());
-
         mainPage.clickBuns();
-
-        assertElementInState(mainPage.getBunsHeader(), visible);
+        waitUntilCategoryIsActive(mainPage.getBunsButton());
     }
 
     @Test
     public void testNavigationToSauces() {
+        waitForJsToLoad();
         mainPage.clickIngredients();
 
-        waitUntilCategoryLoads(mainPage.getIngredientsButton());
-
         mainPage.clickSauces();
-
-        assertElementInState(mainPage.getSaucesHeader(), visible);
+        waitUntilCategoryIsActive(mainPage.getSaucesButton());
     }
 
     @Test
     public void testNavigationToIngredients() {
-        mainPage.clickIngredients();
+        waitForJsToLoad();
+        mainPage.clickSauces();
 
-        assertElementInState(mainPage.getIngredientsHeader(), visible);
+        mainPage.clickIngredients();
+        waitUntilCategoryIsActive(mainPage.getIngredientsButton());
     }
 
-    private void waitUntilCategoryLoads(SelenideElement element) {
-        String classes = element.getAttribute("class");
+    @Step("Wait until elements parent has 'current' class")
+    private void waitUntilCategoryIsActive(SelenideElement element) {
+        new WebDriverWait(WebDriverRunner.getWebDriver(), Duration.ofSeconds(1))
+                .until(ExpectedConditions.attributeContains(element.parent(), "class", "tab_tab_type_current__2BEPc"));
+    }
 
-        while (true) {
-            if (Arrays.asList(classes.split(" ")).contains("tab_tab_type_current__2BEPc"))
-                break;
-        }
+    private void waitForJsToLoad() {
+        WebDriverRunner.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
     }
 }

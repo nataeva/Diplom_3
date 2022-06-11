@@ -21,11 +21,11 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = ".//h1[text()='Соберите бургер']")
     private SelenideElement constructBurgerLabel;
 
-    @FindBy(how = How.XPATH, using = "//div/main/section[1]/div[1]/div[1]")
+    @FindBy(how = How.XPATH, using = ".//span[text()='Булки']")
     private SelenideElement bunsButton;
-    @FindBy(how = How.XPATH, using = "//div/main/section[1]/div[1]/div[2]")
+    @FindBy(how = How.XPATH, using = ".//span[text()='Соусы']")
     private SelenideElement saucesButton;
-    @FindBy(how = How.XPATH, using = "//div/main/section[1]/div[1]/div[3]")
+    @FindBy(how = How.XPATH, using = ".//span[text()='Начинки']")
     private SelenideElement ingredientsButton;
 
     @FindBy(how = How.XPATH, using = ".//h2[text()='Булки']")

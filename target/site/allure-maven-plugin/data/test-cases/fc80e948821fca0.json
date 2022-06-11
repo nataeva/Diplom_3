@@ -1,12 +1,12 @@
 {
-  "uid" : "3cb48dfc22c59ee6",
+  "uid" : "fc80e948821fca0",
   "name" : "testPersonalCabinet",
   "fullName" : "test.PersonalCabinetTest.testPersonalCabinet",
   "historyId" : "bc38c18f2ca9024dc7466a53fee7c6d6",
   "time" : {
-    "start" : 1654917463297,
-    "stop" : 1654917465785,
-    "duration" : 2488
+    "start" : 1654990745694,
+    "stop" : 1654990748820,
+    "duration" : 3126
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,127 +17,127 @@
     "steps" : [ {
       "name" : "Click \"Log In\" button",
       "time" : {
-        "start" : 1654917463514,
-        "stop" : 1654917463913,
-        "duration" : 399
+        "start" : 1654990746913,
+        "stop" : 1654990747001,
+        "duration" : 88
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Enter data for sign in",
       "time" : {
-        "start" : 1654917463941,
-        "stop" : 1654917464315,
-        "duration" : 374
+        "start" : 1654990747021,
+        "stop" : 1654990747296,
+        "duration" : 275
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "email",
-        "value" : "elenadf5f@gmail.com"
+        "value" : "elena4dbb@gmail.com"
       }, {
         "name" : "password",
         "value" : "12345678"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Sign In\" button",
       "time" : {
-        "start" : 1654917464315,
-        "stop" : 1654917464442,
-        "duration" : 127
+        "start" : 1654990747296,
+        "stop" : 1654990747403,
+        "duration" : 107
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click \"Personal Cabinet\" button",
       "time" : {
-        "start" : 1654917464443,
-        "stop" : 1654917464933,
-        "duration" : 490
+        "start" : 1654990747403,
+        "stop" : 1654990747897,
+        "duration" : 494
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "Wait until 'NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//button[text()='Выход']\"}' is visible",
+      "name" : "Wait until '<button class=\"Account_button__14Yp3 text text_type_main-medium text_color_inactive\" type=\"button\">Выход</button>' is visible",
       "time" : {
-        "start" : 1654917464964,
-        "stop" : 1654917465217,
-        "duration" : 253
+        "start" : 1654990748241,
+        "stop" : 1654990748263,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "element",
-        "value" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//button[text()='Выход']\"}"
+        "value" : "<button class=\"Account_button__14Yp3 text text_type_main-medium text_color_inactive\" type=\"button\">Выход</button>"
       }, {
         "name" : "state",
         "value" : "visible"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Log out",
       "time" : {
-        "start" : 1654917465240,
-        "stop" : 1654917465337,
-        "duration" : 97
+        "start" : 1654990748283,
+        "stop" : 1654990748375,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click Stellar Burgers logo",
       "time" : {
-        "start" : 1654917465583,
-        "stop" : 1654917465785,
-        "duration" : 202
+        "start" : 1654990748600,
+        "stop" : 1654990748819,
+        "duration" : 219
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
     "hasContent" : true,
-    "stepsCount" : 7
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -157,7 +157,7 @@
     "value" : "spbnb-prc2963"
   }, {
     "name" : "thread",
-    "value" : "10228@spbnb-prc2963.main(1)"
+    "value" : "7164@spbnb-prc2963.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3cb48dfc22c59ee6.json",
+  "source" : "fc80e948821fca0.json",
   "parameterValues" : [ ]
 }

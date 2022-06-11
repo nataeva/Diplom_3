@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.page;
 import static util.UserInteraction.setText;
 
 public class LoginPage {
-    @FindBy(how = How.XPATH, using = "//div/header/nav/div/a")
+    @FindBy(how = How.XPATH, using = ".//div[@class='AppHeader_header__logo__2D0X2']")
     private SelenideElement logoButton;
     @FindBy(how = How.NAME, using = "name")
     private SelenideElement emailField;
