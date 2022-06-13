@@ -1,0 +1,189 @@
+{
+  "uid" : "e7ae8ca4d7e57322",
+  "name" : "testLoginWorksFromMainPage_LogInButton",
+  "fullName" : "test.LogInTest.testLoginWorksFromMainPage_LogInButton",
+  "historyId" : "892ae3ce83c47c53bdc4f300c497b916",
+  "time" : {
+    "start" : 1654990730852,
+    "stop" : 1654990735018,
+    "duration" : 4166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click \"Log In\" button",
+      "time" : {
+        "start" : 1654990732110,
+        "stop" : 1654990732262,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter data for sign in",
+      "time" : {
+        "start" : 1654990732262,
+        "stop" : 1654990732818,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "elena4dbb@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "12345678"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Sign In\" button",
+      "time" : {
+        "start" : 1654990732818,
+        "stop" : 1654990733030,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>' is visible",
+      "time" : {
+        "start" : 1654990733528,
+        "stop" : 1654990733562,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Оформить заказ</button>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Personal Cabinet\" button",
+      "time" : {
+        "start" : 1654990733581,
+        "stop" : 1654990733719,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1654990733965,
+        "stop" : 1654990734164,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>' is visible",
+      "time" : {
+        "start" : 1654990734953,
+        "stop" : 1654990735017,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\" type=\"submit\">Войти в аккаунт</button>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LogInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginWorksFromMainPage_LogInButton"
+  }, {
+    "name" : "suite",
+    "value" : "test.LogInTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "7164@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7ae8ca4d7e57322.json",
+  "parameterValues" : [ ]
+}

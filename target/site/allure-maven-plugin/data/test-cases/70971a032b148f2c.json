@@ -1,0 +1,174 @@
+{
+  "uid" : "70971a032b148f2c",
+  "name" : "testSuccessfulSignUp",
+  "fullName" : "test.SignUpTest.testSuccessfulSignUp",
+  "historyId" : "f2ca25384a1159f9868f8a10d75e27f8",
+  "time" : {
+    "start" : 1654990751022,
+    "stop" : 1654990753405,
+    "duration" : 2383
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to sign up page",
+      "time" : {
+        "start" : 1654990752234,
+        "stop" : 1654990752415,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click \"Log In\" button",
+        "time" : {
+          "start" : 1654990752234,
+          "stop" : 1654990752312,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click \"Sign Up\" link",
+        "time" : {
+          "start" : 1654990752334,
+          "stop" : 1654990752415,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mainPage",
+        "value" : "pageObject.MainPage@2542e124"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter data for sign up",
+      "time" : {
+        "start" : 1654990752440,
+        "stop" : 1654990752885,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Elena Nataeva"
+      }, {
+        "name" : "email",
+        "value" : "testUser1948@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "12345678"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Sign Up\" button",
+      "time" : {
+        "start" : 1654990752885,
+        "stop" : 1654990752992,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Wait until '<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa\" type=\"submit\">Войти</button>' is visible",
+      "time" : {
+        "start" : 1654990753384,
+        "stop" : 1654990753404,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<button class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa\" type=\"submit\">Войти</button>"
+      }, {
+        "name" : "state",
+        "value" : "visible"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.SignUpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulSignUp"
+  }, {
+    "name" : "suite",
+    "value" : "test.SignUpTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "7164@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70971a032b148f2c.json",
+  "parameterValues" : [ ]
+}
